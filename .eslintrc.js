@@ -72,7 +72,7 @@ module.exports = {
         "default-case": "off",
         "no-useless-escape": "warn",
         "no-plusplus": "off",
-        "no-console": ["error", {"allow": ["warn", "error"]}],
+        "no-console": ["warn", {"allow": ["warn", "error"]}],
         "no-return-await": "off",
         "no-useless-constructor": "warn",
         "max-classes-per-file": ["warn", 4],
