@@ -10,7 +10,7 @@ function App() {
     renderCount.value++;
 
     useEffect(() => {
-        const currentKeyword = window.location.pathname.slice(1);
+        const currentKeyword = decodeURI(window.location.pathname.slice(1));
         if (currentKeyword.length > 0) {
             setKeyword(currentKeyword);
         }
