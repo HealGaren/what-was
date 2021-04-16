@@ -58,7 +58,7 @@ module.exports = {
         "quotes": "off",
         "quote-props": ["error", "consistent"],
         "comma-dangle": "off",
-        "linebreak-style": ["warn", "windows"],
+        "linebreak-style": "off",
         "max-len": ["error", 180],
         "arrow-body-style": "off",
         "object-curly-spacing": ["error", "never"],
