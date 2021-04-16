@@ -24,5 +24,4 @@ yarn-error.log*
 
 *.log
 
-/public
 /.idea
